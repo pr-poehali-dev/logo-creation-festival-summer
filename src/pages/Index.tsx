@@ -3,8 +3,8 @@ import Icon from "@/components/ui/icon";
 const ORGANIC_LOGO =
   "https://cdn.poehali.dev/projects/f2be8b48-e6d7-42e1-829c-afac12a15108/files/608e8e17-3c14-4e52-83fe-0c29c836c6f6.jpg";
 
-const DB_PRINT =
-  "https://cdn.poehali.dev/projects/f2be8b48-e6d7-42e1-829c-afac12a15108/files/83926cf8-d0e7-447a-9ce7-0bf4b78fdb30.jpg";
+const KW_PRINT =
+  "https://cdn.poehali.dev/projects/f2be8b48-e6d7-42e1-829c-afac12a15108/files/13c7c4ba-a54b-4d45-9134-fcfe32874fab.jpg";
 
 const MOTO_REF =
   "https://cdn.poehali.dev/projects/f2be8b48-e6d7-42e1-829c-afac12a15108/bucket/bd92c254-6853-41cd-a2f5-0ac1e0db50fe.jpg";
@@ -47,7 +47,7 @@ const Index = () => {
           </h1>
           <p className="text-white/35 font-light text-base md:text-lg max-w-xl leading-relaxed animate-fade-in-up [animation-delay:0.2s] opacity-0">
             Непрямая отсылка к музыке — как «299 km/h» для мотоклуба. 
-            Для фестиваля — <span className="text-sunset-coral font-medium">120 dB</span>, уровень звука на живом концерте.
+            Для фестиваля — <span className="text-sunset-coral font-medium">120 kW</span>, мощность звука главной сцены.
           </p>
         </div>
       </section>
@@ -68,10 +68,10 @@ const Index = () => {
               accent="border-white/10"
             />
             <DesignCard
-              image={DB_PRINT}
+              image={KW_PRINT}
               label="Наш принт"
-              title="Фестиваль — 120 dB"
-              desc="Шкала громкости на пределе. Завуалированная отсылка к музыке и энергии живого звука."
+              title="Фестиваль — 120 kW"
+              desc="Мощность звуковой системы главной сцены. Завуалированная отсылка к энергии живого звука."
               accent="border-sunset-orange/30"
               featured
             />
@@ -132,9 +132,9 @@ const Index = () => {
             />
             <ConceptCard
               number="120"
-              unit="dB"
+              unit="kW"
               label="Музыка"
-              desc="Уровень звука на концерте — энергия, драйв, единение толпы"
+              desc="Мощность звука главной сцены — энергия, драйв, единение толпы"
               highlighted
             />
             <ConceptCard
